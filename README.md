@@ -2,16 +2,21 @@
 <h3 align="center">Made with passion to coding </h3>
 
 <h3>📄Project Description </h3>
-<p>This project was made to fill my resume. I want to make a clean look portfolio which contains all my interesting projects and show my skills.
+<p>This project was made to fill my resume. I want to make a clean look portfolio which contains all my interesting projects and show my skills.<br>
    It have many interesting features like counters and contact form, which are fully personalized.
 </p
+<p></p>
 
 <h3>🔧 How to use it? </h3>
+
+<p><br></p>
+   
 <p>-Download and unzip</p>
 <p>-Run cmd in project dir</p>
 <p>-write (on Win): "python manage.py runserver --insecure</p>
 <p>-BOOM🎉 .It works</p>
-  
+
+<p><br></p>
 
 
 
