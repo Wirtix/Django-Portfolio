@@ -4,7 +4,10 @@
 <h2>📄Project Description </h2>
 <p>This project was made to fill my resume. I want to make a clean look portfolio which contains all my interesting projects and show my skills.<br>
    It have many interesting features like counters and contact form, which are fully personalized.
-</p
+</p>
+<p> This is how it looks like :</p>
+![image](https://github.com/Wirtix/Django-Portfolio/assets/163426241/d5848648-c847-45af-9adc-3068eac7c83d)
+
 
 <p><br></p>
 
