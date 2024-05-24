@@ -7,7 +7,8 @@
 </p>
 <p> This is how it looks like :</p>
 <p> <img scr="img/portfolio-view.png"></p>
-![image description](img/portfolio-view.png)
+<img scr="img/portfolio-view.png">
+![portfolio view](Django-Portfolio/img/portfolio-view.png)
 
 
 <p><br></p>
