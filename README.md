@@ -2,7 +2,7 @@
 <h3 align="center">Made with passion to codingh3>
 
 <h3 align="left">Connect with me:</h3>
-<a href="https://www.linkedin.com/in/oskar-skutnik-082b35307/"><i class="fa-brands fa-linkedin"></i></a> 
+<p><a href="https://www.linkedin.com/in/oskar-skutnik-082b35307/"><i class="fa-brands fa-linkedin"></i></a> </p>
 <p align="left">
 </p>
 
