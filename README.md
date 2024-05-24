@@ -1,7 +1,8 @@
-<h1 align="center">Hi 👋, I'm Oskar Skutnik</h1>
-<h3 align="center">A passionate Python developer from Poland</h3>
+<h1 align="center">Hi 👋, I'm Oskar Skutnik and this is my Django Portfolio Project</h1>
+<h3 align="center">Made with passion to codingh3>
 
 <h3 align="left">Connect with me:</h3>
+<a href="https://www.linkedin.com/in/oskar-skutnik-082b35307/"><i class="fa-brands fa-linkedin"></i></a> 
 <p align="left">
 </p>
 
