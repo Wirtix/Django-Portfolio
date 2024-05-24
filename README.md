@@ -3,12 +3,11 @@
 
 <h2>📄Project Description </h2>
 <p>This project was made to fill my resume. I want to make a clean look portfolio which contains all my interesting projects and show my skills.<br>
-   It have many interesting features like counters and contact form, which are fully personalized.
-</p>
+   It have many interesting features like counters and contact form, which are fully personalized.</p>
 <p> This is how it looks like :</p>
-<p> <img scr="img/portfolio-view.png"></p>
-<img scr="img/portfolio-view.png">
-![portfolio view](https://github.com/Wirtix/Django-Portfolio/blob/main/img/portfolio-view.png)
+<p>
+    <img src="https://github.com/Wirtix/Django-Portfolio/blob/main/img/portfolio-view.png" width="720" />
+</p>
 
 
 <p><br></p>
