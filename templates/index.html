@@ -1,0 +1,233 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="icon/image" href="{% static 'media/man.png'%}">
+    <script src="https://kit.fontawesome.com/bb12150788.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'styles.css' %}">
+    <title>Oskar Skutnik Portfolio</title>
+</head>
+<body>
+    <!--Main Column Container-->
+    <div class="main-container">
+        <div class="columns">
+            <div class="left column">
+<!-- The logo -->
+                <div class="logo">
+                    <h3>Per<span>sonal</span> Portfolio</h3>
+                </div>
+<!-- Navigation Links -->
+                <div class="navlinks">
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contacts">Contact</a></li>
+                        
+                    </ul>
+                </div>
+<!-- The footer -->
+                <div class="footer">
+                    <span>&copy 2024 || All Rights Reserverd</span>
+                </div>
+
+            </div>
+<!-- The right section -->
+            <div class="right column">
+                <div class="avator" id="home">
+                    <div class="photo">
+                        <img src="{% static 'media/man.png' %}" alt="">
+
+                    </div>
+                    <div class="text-typing">
+                        <h2> My name is Oskar Skutnik and I am a <span id="typing"></span></h2>
+                        
+                    </div>
+                    <div class="icons">
+                        <a class="link" href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+                        <a class="link" href="https://github.com/Wirtix"><i class="fa-brands fa-github"></i></a>
+                        <a class="link" href="https://www.linkedin.com/in/oskar-skutnik-082b35307/"><i class="fa-brands fa-linkedin"></i></a>
+                    </div>
+
+                    <div class="hire">
+                        <a href="#contacts">
+                            <button>Hire me</button>
+                        </a>
+                    </div>
+                </div>
+<!-- About Section-->
+            <div class="about" id="about">
+                <div class="photo">
+                    <img src="{% static 'media/man.png' %}" alt="">
+                </div>
+                <div class="desc">
+                    <h3>About Me</h3>
+                    <p>
+                        Hello everyone!😊 Im self-taught python engineer and data scientist with great knowledge about problem solving.
+                        I used to chase dreams and when one of them become solving advanced problem, I just started learning and now, here I'm. 
+                        Something about me: I LOVE CARS. So if u have any project connected with this topic, I will fall in love!
+                        If you want to know me better, you should check out my Facebook and Linkedin, linked above!
+                        I create this web page from nothing, using DJango, HTML, CSS and JS to make my resume complete📊.
+                    </p>
+                    <a href = "static\media\CV_Oskar_Skutnik.pdf" download = "CV_Oskar_Skutnik.pdf">
+                        <button>Download CV</button>
+                    </a>
+                </div>
+            
+            </div>
+            <div class="skills" id="skills">
+
+                <h3>The skills</h3>
+
+                <div class="progress-cont item">
+                <h4>Python</h4>
+                <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+                 <div class="progress-bar bg-warning" style="width: 100%"> Main 100%</div>
+                  </div>
+                </div>
+
+                <div class="progress-cont">
+                <h4>Pandas | Tensorflow | ML | Plotly</h4>
+                <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                 <div class="progress-bar bg-success" style="width: 80%">Well Known 80%</div>
+                  </div>
+                </div>
+
+                <div class="progress-cont">
+                <h4>Excel | HTML | CSS | DJango</h4>
+                <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">
+                 <div class="progress-bar bg-info" style="width: 70%">Good at it 70%</div>
+                  </div>
+                </div>
+                <div class="progress-cont">
+                <h4>JS | SQL | Linux</h4>
+                <div class="progress" role="progressbar" aria-label="Success example" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">
+                 <div class="progress-bar bg-danger" style="width: 50%"> Basic 50%</div>
+                  </div>
+                </div>
+
+            </div>  
+
+            <!-- Services -->
+            <h2 class="text">Portfolio</h2>
+            <div class="services" id="portfolio">
+                
+                <div class="card">
+                    <i class="fa-solid fa-code"></i>
+                    <h3>Web Development</h3>
+                    <p>As a web development (Django) project you can see this portfolio page.
+                         It connects several different programming languages in one project.
+                          Here we have JS counters and CSS styling as well as Django framework.
+                          I created this project to make informations about myself as clear as possible.
+                          Check out source code clicking button bellow
+
+                    </p>
+                        <button>Check Project</button>
+                </div>
+                <div class="card">
+                    <i class="fa-brands fa-python"></i>
+                    <h3>Python Development</h3>
+                    <p>As a Python Development project I want u to check out my chess game. I decided to make it using only basic librarys (no chess one).
+                        In this project I have implemented MiniMax algorithm with an alpha beta optimalization. Whole project is splitted into different files focused on different things like pieces movement, board creation etc.
+                        Project was based on checkers game, that I have created as my first Python project.
+                    </p>
+                        <button>Check Project</button>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-database"></i>
+                    <h3>Data Science</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                         Expedita rerum eaque repellendus in,
+                          quos suscipit incidunt delectus dolorum voluptatem esse consequatur sint assumenda,
+                         nobis laborum debitis sapiente voluptas impedit obcaecati.
+                    </p>
+                        <button>Check Project</button>
+                </div>
+                <div class="card">
+                    <i class="fa-solid fa-code-fork"></i>
+                    <h3>Machine Learning</h3>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                         Expedita rerum eaque repellendus in,
+                          quos suscipit incidunt delectus dolorum voluptatem esse consequatur sint assumenda,
+                         nobis laborum debitis sapiente voluptas impedit obcaecati.
+                    </p>
+                        <button>Check Project</button>
+                </div>
+            </div>
+
+            <!-- Counters -->
+            <h2 class="text">Just look a numbers</h2>
+            <div class="counters-container">
+                <div class="card-5">
+                    <i class="fa-solid fa-face-smile-beam"></i>
+                    <h3>Happy Interviewers</h3>
+                    <h2 id="happy"></h2>
+                </div>
+                <div class="card-5">
+                    <i class="fa-solid fa-terminal"></i>
+                    <h3>Hours of coding</h3>
+                    <h2 id="projects"></h2>
+                </div>
+                <div class="card-5">
+                    <i class="fa-solid fa-mug-hot"></i>
+                    <h3>Cup of coffee</h3>
+                    <h2 id="cup"></h2>
+                </div>
+            <!-- Contact form  -->
+            </div>
+            <h2 class="text">Contact me</h2>
+            <div class="contacts" id="contacts">
+                
+                <form action="{% url 'contact' %}" method="post">
+                    {% csrf_token %}
+
+                    <div class="form-group">
+                        <label for="name">Enter the name</label>
+                        <input type="text" id="'name" name="name" placeholder="Enter your full name here...">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Enter the email</label>
+                        <input type="email" id="'email" name="email" placeholder="Enter your email here..." required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Enter the subject</label>
+                        <input type="text" id="'subject" name="subject" placeholder="Enter your subject here...">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Enter the message</label>
+                        <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter your message here..." required></textarea>
+                    </div>
+
+                    <button type="submit">Submit</button>
+
+                </form>
+            </div>
+            <h2 class="text">Other ways to talk with me</h2>
+            <div class="contact-methods">
+                <div class="phone">
+                    <h3>Phone number:</h3>
+                    <p>+48 660 501 720</p>
+                </div>
+                <div class="email">
+                    <h3>Email adress:</h3>
+                    <p>oskar1skutnik@gmail.com</p>
+                </div>
+
+            </div>
+
+            
+        </div>
+    </div>
+
+  <script src="{% static 'main.js' %}"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
