@@ -6,7 +6,8 @@
    It have many interesting features like counters and contact form, which are fully personalized.
 </p>
 <p> This is how it looks like :</p>
-<p> <img scr="/img/portfolio-view.png"></p>
+<p> <img scr="img/portfolio-view.png"></p>
+![image description](img/portfolio-view.png)
 
 
 <p><br></p>
